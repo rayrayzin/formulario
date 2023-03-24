@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produtos</title>
+</head>
+<body>
+    <form action="Ação a ser executada" >
+        <Fieldset>
+             <Legend> Produto: </Legend>
+             <Label for="iproduto">Produto:</label>
+             <br>
+             <Input id="iproduto" name="emproduto"type="text" placeholder="Digite o nome">
+             <br>
+             <Label for="ipeso">Peso:</label>
+                <br>
+                <Input id="ipeso" name="empeso"type="number" placeholder="Digite o peso">
+                <br>
+             <Label for="idatacad">Data de cadastro:</label>
+             <br>
+             <Input id="idatacad" name="pdatacad"type="date">
+             <br>
+             <label for="icat">Categoria:</label>
+             <br>
+             <select name="slcat" id="icat">
+                <option value=" "></option>
+                <option value="e">Eletronicos</option>
+                <option value="D">Domésticos</option>
+                <option value="S">Smartphones</option>
+             </select>
+             <br>
+            <label for="itipo">Tipo:</label>
+             <br>
+             <Input id="itipo" name="ptipo"type="radio">Novo
+                <br>
+                <Input id="itipo" name="ptipo"type="radio">Usado
+
+             <br>
+            <Label for="itaby">Descrição:</label>
+                <br>
+                <textarea name="txtfale" id="ifale" cols="50" rows="20"></textarea >
+                <br>
+                <label for="ava">Avaliação (0 a 10):</label>
+                <input type="range" id="vol" name="vol" min="0" max="10">
+                <br>
+                <Input type="submit" value="ENVIAR">
+                <Input type="reset" value="LIMPAR">
+            
+            
+        </fieldset>
+    </form>
+            
+    
+</body>
+</html>

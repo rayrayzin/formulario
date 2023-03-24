@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="Ação a ser executada" >
+        <Fieldset>
+             <Legend> login </Legend>
+             <Label for="ilogin">Nome:</label>
+             <br>
+             <Input id="ilogin" name="emlogin"type="text" placeholder="Digite seu nome">
+             <br>
+             <Label for="idatanas">Data de nascimento:</label>
+             <br>
+             <Input id="idatanas" name="pdatanas"type="date">
+             <br>
+             <label for="isexo">Sexo:</label>
+             <br>
+             <select name="slsexo" id="isexo">
+                <option value=" "></option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="A">Agenero</option>
+             </select>
+             <br>
+             <Label for="iemail">E-mail:</label>
+             <br>
+             <Input id="iemail" name="pemail"type="email"placeholder="Digite seu E-mail">
+             <br>
+             <Label for="isenha"> Confirmar E-mail:</label>
+             <br>
+             <Input id="icemail" name="pcemail"type="email"placeholder="Digite seu E-mail">
+             <br>
+             
+        </Fieldset>
+        <fieldset>
+            <label for="itipo">Tipo:</label>
+             <br>
+             <select name="slsexo" id="isexo">
+                <option value=""> </option>
+                <option value="M">Admin</option>
+                <option value="F">User</option>
+             </select>
+             <br>
+            <Label for="itaby">Fale sobre você:</label>
+                <br>
+                <textarea name="txtfale" id="ifale" cols="50" rows="20"></textarea >
+                <br>
+                <Input type="submit" value="ENVIAR">
+                <Input type="reset" value="LIMPAR">
+            
+            
+        </fieldset>
+    </form>
+            
+    
+</body>
+</html>
